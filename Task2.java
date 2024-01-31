@@ -17,7 +17,7 @@ public class Task2 {
             totalMarks += marks;
         }
 
-        double averagePercentage = (double) totalMarks / totalSubjects * 100;
+        double averagePercentage = ((double) totalMarks / totalSubjects);
 
         char grade;
         if (averagePercentage >= 90) {
@@ -34,7 +34,7 @@ public class Task2 {
         }
 
         System.out.println("Total Marks: " + totalMarks);
-        System.out.println("Average Percentage: " + averagePercentage * 100 + "%");
+        System.out.println("Average Percentage: " + averagePercentage  + "%");
         System.out.println("Grade: " + grade);
     }
     
